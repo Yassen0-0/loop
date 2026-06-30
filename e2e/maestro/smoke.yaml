@@ -1,0 +1,7 @@
+appId: com.loop.app
+---
+- launchApp
+- assertVisible: Loop
+- assertVisible: Daily progress
+- tapOn: Add loop
+- assertVisible: New loop 4
